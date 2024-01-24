@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="main-header"><!--navigation menu is structured-->
+        <nav class="nav main-nav">
+            <ul>
+                <li>Home</li>
+                <li>Store</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <h2 class="band">Zaturn Electonics</h2>
+    </header>
+    <!--display the components with it's picture, price and title-->
+    <section class="container content-section">
+        <h3 class="section-header">Components</h3>
+        <div class="shop-items">
+            <div class="shop-item">
+            <span class="shop-item-title">Keyboard</span>
+            <img class="shop-item-image" src="images/katana-pro-.50.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$89.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Monitor</span>
+            <img class="shop-item-image" src="images/asus-rog-swift-oled--pg42uq-gaming-monitor-1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$239.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Mouse</span>
+            <img class="shop-item-image" src="images/mouse.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Add to cart</button>
+                </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Cpu</span>
+            <img class="shop-item-image" src="images/cpu.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$499.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">add to cart</button>
+                </div>
+        </div>
+        
+        </div>
+    </section>
+    <!--this section structures the Cart section -->
+    <section class="container content-section">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$ 0</span>
+        </div>
+           <button class="btn btn-primary btn-purchase" type="button">Purchase</button> 
+    </section>
+    <!--this one is for footer part including socials-->
+    <footer class="main-footer">
+        <div class="main-footer-container">
+            <h3 class="band">Zaturn Electonics</h3>
+                <ul class="nav footer-nav">
+                    <li><img src="images/fb.png"></li>
+                    <li><img src="images/whatsapp.png"></li>
+                    <li><img src="images/insta.png"></li>
+                </ul>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
